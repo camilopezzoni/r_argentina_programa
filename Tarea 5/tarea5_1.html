@@ -12,12 +12,15 @@
     <h1>Tarea 5-1</h1>
     <Form>
         <label for="Salario_anual">Salario anual</label>
-        <input type="number" id="salario_anual" placeholder="ingrese el salario anual"/>
+        <input type="number" id="salario_anual" placeholder="ingrese el salario anual" onchange="calcularSalarioMensual()"/>
         <label for="salario_mensual">Salario mensual:</label>
         <input type="number" disabled id="salario_mensual"/>
         <button type="button" id="calcular_salario_mensual" onclick="calcularSalarioMensual()">Calcular</button>
         <button type="reset">Limpiar</button>
     </Form>
+    
+    <br><br><br><br><br>
+    <button > <a href="../index.html">volver</a> </button>
 
     <script src='./tarea5_1.js'></script>
 </body>
